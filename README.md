@@ -16,7 +16,7 @@ This error appeared after Nvidia game ready driver updated, but has seemingly ha
 - Use command console and type "sfc /scannow as" as shown in screen shot [Screenshot command console](https://github.com/ZakHollows/GPUfanhelper-error/blob/a68120a4f4259772ba965201a0f6e5ee022a0673/command%20console%20scannow.png)
 - Log from scan showing some corrupt files, automatically fixed by scan [screenshot](https://github.com/ZakHollows/GPUfanhelper-error/blob/80540c5070898cf8ea59f76d5d32c3ce145555ce/Corrupt%20files%20log.png)
 - Restart PC, error persists
-- Further research into the source of the gpufanhelper error found it was not a core system, meaning it has to be an application/program. The research on forums and sites like Reddit found it was an error other users have had with Asus AI suite 3. This program is meant to support the motherboard with updates, and functions such as fan control.
+- Further research into the source of the gpufanhelper error found it was not a core system, meaning it has to be an application/program. The research found it was an error other users have had with Asus AI suite 3. This program is meant to support the motherboard with updates, and functions such as fan control.
 - Users reporting online that the error generated is from incompatability issues with the motherboard. This issue persists regardless of version of application used as requires the motherboard to have the compatability 
 - Checked Asus sites for motherboard specs and compatability with ai suite 3 after using run box using command misinfo 32 to see full PC specs
 - Confirmation that the motherboard in use, PRIME b760m-a wifi, is not compatible with ai suite 3
