@@ -1,16 +1,26 @@
 # GPUfanhelper-error
 
-GPUfanhelper error fast fail
+# Project Sumaary
+
+This issue was brought to me by a colleague, with thier only comments being the GPU game ready driver recently updated. Started by restarting to see the error for code myself as it only appeared at the log in page or soon after. Updated drivers in background whilst looking online for sources of the error other users may have had. After using a troublshooting methods given online of verifying disk integrity, which found some corrupt files and repaired them, the error persisted. More research found the issue came from AI suite 3, and if uninstalled the error stopped. The update to the Nvidia game ready driver created a need for AI suite 3 to also update, which created the error messsage as it was unable to update due to incompatability with the motherboard. Motherboard was unable to update to a version AI suite 3 could communicate with due to the motherboards discontinued support. User only used AI suite 3 for fan control, Armoury crate was a suitable alternative instead of defaulting back to BIOS settings, and was already installed on the PC.
+
+From this I learned how to narrow down what the issue was through online research and troubleshooting steps. And to be able to isolate it and identify what exactly the issue was and offer a solution that didnt impact the user.
 
 # Ticket
+
+Below is the steps taken from start to finish of diagnosis and completion of fixing an error code that appeared on PC start up.
+
+GPUfanhelper error fast fail
+
 
 Apon start up, either at log in screen or after logging in, error appears stating the following [error](https://github.com/ZakHollows/GPUfanhelper-error/blob/a68120a4f4259772ba965201a0f6e5ee022a0673/GPUfanhelper%20error%20.png)
 This error appeared after Nvidia game ready driver updated, but has seemingly had no impact apon system for performance
 
 # Diagnosis steps
 
-- Update Drivers for GPU, Nvidia game ready driver via application
-- Issue persists
+- Restart system to see error message
+- Update windows and drivers on system for GPU
+- Error persists
 - Research online for a similar issue to try and find source 
 - Several sites suggestions to verify disk integrity, use command prompt sfc /scannow to find corrupted files.
 - Use command console and type "sfc /scannow as" as shown in screen shot [Screenshot command console](https://github.com/ZakHollows/GPUfanhelper-error/blob/a68120a4f4259772ba965201a0f6e5ee022a0673/command%20console%20scannow.png)
