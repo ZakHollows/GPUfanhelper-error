@@ -2,9 +2,9 @@
 
 # Project Sumaary
 
-This issue was brought to me by a colleague, with thier only comments being the GPU game ready driver recently updated. Started by restarting to see the error for code myself as it only appeared at the log in page or soon after. Updated drivers in background whilst looking online for sources of the error other users may have had. After using a troublshooting methods given online of verifying disk integrity, which found some corrupt files and repaired them, the error persisted. More research found the issue came from AI suite 3, and if uninstalled the error stopped. The update to the Nvidia game ready driver created a need for AI suite 3 to also update, which created the error messsage as it was unable to update due to incompatability with the motherboard. Motherboard was unable to update to a version AI suite 3 could communicate with due to the motherboards discontinued support. User only used AI suite 3 for fan control, Armoury crate was a suitable alternative instead of defaulting back to BIOS settings, and was already installed on the PC.
+An error appeared apon start up, used the Event viewer and research online to isolate the issue. Once found it was a program this was uninstalled, rebooted and error no longer appeared. Reinstallation to check for corrupted application or a bad update, error reapeared so was uninstalled. Armoury crate application took its place for fan control.
 
-From this I learned how to narrow down what the issue was through online research and troubleshooting steps. And to be able to isolate it and identify what exactly the issue was and offer a solution that didnt impact the user.
+From this I learned how to narrow down what the issue was through online research and troubleshooting steps. And to be able to isolate and identify what exactly the issue was and offer a solution that didnt impact the user.
 
 # Ticket
 
